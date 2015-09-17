@@ -1,0 +1,21 @@
+atom.io
+
+file-setting
+
+.클래스
+#아이디
+()그룹
+{} 텍스트 요소
+$숫자
+*갯수
+>자식요소
++다음
+
+div.slide>button.{text}*2+(ul>li*3>(div>img)+p)
+쉽고 빠르게 익히는 css3 토끼모양 
+css완벽가이드 css
+만들면서 이해하는 javascript+jquery 입문 +실전북 컵모양 
+jquery cookbook 좋음 꼭 구매
+javaScript 자바스크립트완벽가이드 코뿔소 노란색 원
+모바일 컨텐츠 제작을 위한 svg 프로그래밍 
+아이콕스 실전 프로젝트 반응형 웹퍼블리싱 갈색
