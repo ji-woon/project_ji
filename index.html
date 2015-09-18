@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta http-equiv="refresh" content="0;url=lib/main.html">
     <style>
         *{padding:0; margin:0;}
         ul{list-style:none;}
+        img{vertical-align: top;}
+        a{text-decoration: none;}
 
         header #topbar{height:40px; background-color:#e5e5e5;  border-bottom:1px solid #a6a6a6;}
         header .wrap{height:40px; line-height:40px; width:980px; margin:0 auto; border:1px solid #F00; background-color:#e5e5e5;}
@@ -41,23 +44,24 @@
             text-indent:-99999px;
         }
     header #bottom {height:210px; border:1px solid #F00; }
-    header #bottom .bottom_wrap{height:210px; width:980px; margin:0 auto; border:1px solid #F00; position:relative;  }
+    header #bottom .bottom_wrap{height:210px; width:980px; margin:0 auto; border:1px solid #F00; }
     header #bottom .bottom_wrap h1{float:left; width:160px; height:14px; border:1px solid #F00; margin-top:55px; background:url("lib/image/logo.png") no-repeat; text-indent:-9999px; }
-    header #bottom .bottom_wrap .head_right{position:absolute; right:45px; top:20px;}
+    header #bottom .bottom_wrap .head_right{float:right; clear:right;}
     header #bottom .bottom_wrap .head_right ul li:first-child{background:url("lib/image/top_icon.png") no-repeat; text-indent:-9999px; width:107px; height:134px;}
     header #bottom .bottom_wrap .head_right ul li{display:inline-block; vertical-align:top;}
     header #bottom .bottom_wrap .head_right ul li:first-child+li{margin-top:45px; font-size:15px; line-height:18px;}
     header #bottom .bottom_wrap .head_right ul li:first-child+li span{font-size:18px; line-height:20px; color:#77c3cf;}
     header #bottom .bottom_wrap .head_right ul li:first-child+li span.view{font-size:11px; line-height:15px;}
-    header #bottom .bottom_wrap .nav{position:absolute; bottom:16px;}
-    header #bottom .bottom_wrap .nav ul li{float:left;margin-left:75px;}
+    header #bottom .bottom_wrap .nav{}
+    header #bottom .bottom_wrap .nav ul li{float:left;margin-left:75px; text-indent:0;}
     header #bottom .bottom_wrap .nav ul li:first-child{margin-left:0;}
     header #bottom .bottom_wrap .nav ul li.creators{width:64px;height: 11px; background:url("lib/image/lnb_creators.png") no-repeat; text-indent:-9999px;}
     header #bottom .bottom_wrap .nav ul li.portpolio_box{width:94px;height: 11px; background:url("lib/image/lnb_portfoliobox.png") no-repeat; text-indent:-9999px;}
     header #bottom .bottom_wrap .nav ul li.product_place{width:102px;height: 11px; background:url("lib/image/lnb_productplace.png") no-repeat; text-indent:-9999px;}
     header #bottom .bottom_wrap .nav ul li.event{width:40px;height: 11px; background:url("lib/image/lnb_event.png") no-repeat; text-indent:-9999px;}
     header #bottom .bottom_wrap .nav ul li.webzine{width:64px;height: 11px; background:url("lib/image/lnb_webzine.png") no-repeat; text-indent:-9999px;}
-
+    header #bottom .bottom_wrap .nav ul li.webzine>div{border:1px solid #F00; position:absolute;  background-color:#00b2c7; width:100%; left:0}
+    header #bottom .bottom_wrap .nav ul li.webzine>div>ul>li{float:left; font-size:14px; border:1px solid #F00;}
 
     </style>
 </head>
@@ -88,17 +92,26 @@
 							</div>
 							<div class="nav">
 								<ul>
-									<li class="creators">Creators</li>
-									<li class="portpolio_box">Portpolio Box</li>
-									<li class="product_place">Product Place</li>
-									<li class="event">event</li>
-									<li class="webzine">WebZine</li>
+									<li class="creators"><a href="/">Creators</a></li>
+									<li class="portpolio_box"><a href="/">Portpolio Box</a></li>
+									<li class="product_place"><a href="/">Product Place</a></li>
+									<li class="event"><a href="/">event</a></li>
+									<li class="webzine"><a href="/">WebZine</a>
+                                        <div>
+                                            <ul>
+                                                <li><a href="/">Cover Story</a></li>
+                                                <li><a href="/">Creators News</a></li>
+                                                <li><a href="/">공연 &amp; 행사</a></li>
+                                                <li><a href="/">Talent Associantion</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
 								</ul>
            	    			</div>
 				</div>
 		</div>
 	</div>
-    
+
 </header>
 <section>
 </section>

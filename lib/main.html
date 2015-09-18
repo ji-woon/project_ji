@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <base href="http://sleepneo.dothome.co.kr/" target="_self" /> -->
+     <base href="file:///d:/uiux_pj/person_project/" target="_self" />
+    <style>
+        *{padding:0; margin:0;}
+        ul{list-style:none;}
+        img{vertical-align: top;}
+        a{text-decoration: none;}
+
+        header #topbar{height:40px; background-color:#e5e5e5;  border-bottom:1px solid #a6a6a6;}
+        header .wrap{height:40px; line-height:40px; width:980px; margin:0 auto; border:1px solid #F00; background-color:#e5e5e5;}
+        header .wrap fieldset{border:1px solid #F00; float:right; }
+        .ir{
+            position:absolute;
+            font-size:0;
+            width:0;
+            height:0;
+            top:-99999px;
+            left:-99999px;
+            overflow:hidden;
+        }
+
+        header #topbar fieldset input[type="text"]{
+            line-height:23px;
+            width:277px;
+            vertical-align: middle;
+            margin-right:11px;
+            padding:0 10px;
+            border:0 none;
+            border-top:1px solid #666;
+            border-left:1px solid #666;
+        }
+
+        header #topbar fieldset input[type="submit"]{
+            height:47px;
+            width:107px;
+            vertical-align: top;
+            border:1px solid #000;
+            border-top:0 none;
+            background: url("lib/image/search.png") no-repeat;
+            text-indent:-99999px;
+        }
+    header #bottom {height:173px; border-bottom:5px solid #000; }
+    header #bottom .bottom_wrap{ width:980px; margin:0 auto;  }
+    header #bottom .bottom_wrap h1{float:left; width:160px; height:14px; border:1px solid #F00; margin:55px 0 65px 0; background:url("lib/image/logo.png") no-repeat; text-indent:-9999px; }
+    header #bottom .bottom_wrap .head_right{float:right; clear:right; margin:15px 5px 0 0;}
+    header #bottom .bottom_wrap .head_right ul li:first-child{background:url("lib/image/top_icon.png") no-repeat; text-indent:-9999px; width:107px; height:134px;}
+    header #bottom .bottom_wrap .head_right ul li{display:inline-block; vertical-align:top;}
+    header #bottom .bottom_wrap .head_right ul li:first-child+li{margin-top:45px; font-size:15px; line-height:18px;}
+    header #bottom .bottom_wrap .head_right ul li:first-child+li span{font-size:18px; line-height:20px; color:#77c3cf;}
+    header #bottom .bottom_wrap .head_right ul li:first-child+li span.view{font-size:11px; line-height:15px;}
+
+    header #bottom .bottom_wrap .nav {border:1px solid #F00; clear:left;  margin-top:190px;}
+    header #bottom .bottom_wrap .nav ul{overflow:hidden;}
+    header #bottom .bottom_wrap .nav ul li{float:left;margin-left:75px; text-indent:0; line-height:35px;}
+    header #bottom .bottom_wrap .nav ul li:first-child{margin-left:0;}
+    header #bottom .bottom_wrap .nav ul li.creators{width:64px;height: 11px; background:url("lib/image/lnb_creators.png") no-repeat; text-indent:-9999px;}
+    header #bottom .bottom_wrap .nav ul li.portpolio_box{width:94px;height: 11px; background:url("lib/image/lnb_portfoliobox.png") no-repeat; text-indent:-9999px;}
+    header #bottom .bottom_wrap .nav ul li.product_place{width:102px;height: 11px; background:url("lib/image/lnb_productplace.png") no-repeat; text-indent:-9999px;}
+    header #bottom .bottom_wrap .nav ul li.event{width:40px;height: 11px; background:url("lib/image/lnb_event.png") no-repeat; text-indent:-9999px;}
+    header #bottom .bottom_wrap .nav ul li.webzine{width:64px;height: 11px; background:url("lib/image/lnb_webzine.png") no-repeat; text-indent:-9999px;}
+    header #bottom .bottom_wrap .nav ul li.webzine>div{position:absolute;  background-color:#00b2c7; width:100%; left:0; height:35px; line-height:100%; top:220px;}
+    header #bottom .bottom_wrap .nav ul li.webzine>div>ul{margin-left:560px;}
+    header #bottom .bottom_wrap .nav ul li.webzine>div>ul>li{float:left; font-size:14px; }
+
+    header #bottom .bottom_wrap .nav ul li:nth-child(5)>div>ul>li{margin-left:50px;}
+
+    </style>
+</head>
+<body>
+    <header>
+   	    <div id="topbar">
+   				<div class="wrap">
+   					<fieldset>
+   						<legend class="ir">검색</legend>
+   						<label for="search"></label>
+   						<input type="text"  id="search" alt="검색" /><input type="submit" value="search" />
+   					</fieldset>
+   				</div>
+
+
+   		<div id="bottom">
+   				<div class="bottom_wrap">
+   							<h1><span>Cube Bridge</span></h1>
+   							<div class="head_right">
+   								<ul>
+   									<li>good food</li>
+   									<li><span>Event Area</span><br/>
+   										예쁜 아이콘과 함께 <br/>
+   										이 곳에 이벤트를 넣는것은<br/>
+   										어떨까요? <a href="#"><span class="view">View</span></a>
+   									</li>
+   								</ul>
+   							</div>
+   							<div class="nav">
+   								<ul>
+   									<li class="creators"><a href="/">Creators</a></li>
+   									<li class="portpolio_box"><a href="/">Portpolio Box</a></li>
+   									<li class="product_place"><a href="/">Product Place</a></li>
+   									<li class="event"><a href="/">event</a></li>
+   									<li class="webzine"><a href="/">WebZine</a>
+                                           <div>
+                                               <ul>
+                                                   <li><a href="/">Cover Story</a></li>
+                                                   <li><a href="/">Creators News</a></li>
+                                                   <li><a href="/">공연 &amp; 행사</a></li>
+                                                   <li><a href="/">Talent Associantion</a></li>
+                                               </ul>
+                                           </div>
+                                       </li>
+   								</ul>
+              	    			</div>
+   				</div>
+   		</div>
+   	</div>
+
+   </header>
+   <section>
+   </section>
+   <footer>
+   </footer>
+</body>
+
+
+</html>
